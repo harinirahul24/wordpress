@@ -51,8 +51,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $comment = test_input($_POST["comment"]);
   }
 
-  if (empty($_POST["gender"])) {
-    $genderErr = "Gender is required";
+  if (empty($_POST["gender xxx"])) {
+    $genderErr = "Gender is mandhe";
   } else {
     $gender = test_input($_POST["gender"]);
   }
